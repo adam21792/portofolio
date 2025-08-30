@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G's Portfolio | Frontend Developer & Educator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <img src="https://i.postimg.cc/SxzK6jCb/LOGO.jpg" width="60px" height="45px" alt="logo"> 
+                <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+                <ul class="footer-links">
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi, I'm <span style="color: #6366f1;">Adam</span></h1>
+                <p>Web Developer & Educator with a passion for building clean, user-friendly web experiences.</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn">View My Work</a>
+                    <a href="#contact" class="btn btn-outline">Hire Me</a>
+                </div>
+            </div>
+        </div>
+        <div class="floating-icons">
+            <div class="floating-icon" style="top: 20%; left: 10%; animation: float 6s ease-in-out infinite;"><i class="fab fa-html5"></i></div>
+            <div class="floating-icon" style="top: 60%; left: 5%; animation: float 8s ease-in-out infinite;"><i class="fab fa-css3-alt"></i></div>
+            <div class="floating-icon" style="top: 30%; right: 15%; animation: float 7s ease-in-out infinite;"><i class="fab fa-js"></i></div>
+            <div class="floating-icon" style="top: 70%; right: 10%; animation: float 9s ease-in-out infinite;"><i class="fab fa-react"></i></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-img fade-in">
+                    <img src="https://i.postimg.cc/5NWbC1b6/adam5-removebg-preview-1.png" alt="Profile Picture">
+                </div>
+                <div class="about-text fade-in">
+                    <p>I'm a Web Developer with 15+ years of teaching experience. I love building clean, user-friendly web apps and helping people learn technology.</p>
+                    <p>My approach combines technical expertise with educational psychology to create digital experiences that are both functional and intuitive.</p>
+                    <div class="highlights">
+                        <div class="highlight">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                            <span>15+ years teaching</span>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-code"></i>
+                            <span>Fullstack Development</span>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-brain"></i>
+                            <span>AI & Web Solutions</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>My Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category fade-in">
+                    <h3><i class="fab fa-html5"></i>Frontend</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>HTML/CSS</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>JavaScript</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>React</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category fade-in">
+                    <h3><i class="fas fa-server"></i> Backend</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Node.js</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Express</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>MongoDB</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="70%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category fade-in">
+                    <h3><i class="fas fa-graduation-cap"></i> Other</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Teaching</span>
+                            <span>98%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="98%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Training</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Social Media</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card fade-in">
+                    <div class="project-img">
+                        <img src="https://i.postimg.cc/C1RJmVtz/in.jpg" alt="Project 1">
+                    </div>
+                    <div class="project-content">
+                        <h3>Invoiceflow</h3>
+                            <p>
+                           This is a modern, lightweight web application deployed with <strong>Vercel</strong>.  
+                           Designed with performance, scalability, and user experience in mind, it demonstrates the power of 
+                            <strong>Next.js</strong> and modern frontend development practices.
+                            </p>
+                        <div class="project-btns">
+                            <a href="https://invoiceflow-two.vercel.app/" class="btn">View Live</a>
+                            <a href="https://github.com/adam21792/invoiceflow/blob/main/index.html" class="btn btn-outline">Code</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card fade-in">
+                    <div class="project-img">
+                        <img src="https://i.postimg.cc/6pzDPtH0/a.jpg" alt="Project 2">
+                    </div>
+                    <div class="project-content">
+                        <h3>AI Web Solutions</h3>
+                        <p>AI & Web Solutions that turn ideas into measurable growth
+                           Modern websites, practical AI automation, and data insights—built to convert.</p>
+                        <div class="project-btns">
+                            <a href="https://adam21792.github.io/haroon-solutions/" class="btn">View Live</a>
+                            <a href="https://github.com/adam21792/haroon-solutions/blob/main/index.html" class="btn btn-outline">Code</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card fade-in">
+                    <div class="project-img">
+                        <img src="https://i.postimg.cc/RV1918ZG/Move-it.jpg" alt="Project 3">
+                    </div>
+                    <div class="project-content">
+                        <h3>MoveIt Mobilezationing website</h3>
+                        <p>Move With Joy
+                              Welcome to our website, where we are on a mission to provide exceptional moving services to customers in the US.</p>
+                        <div class="project-btns">
+                            <a href="https://adam21792.github.io/Move-it-project/" class="btn">View Live</a>
+                            <a href="https://github.com/adam21792/Move-it-project/blob/main/index.html" class="btn btn-outline">Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2>Experience & Education</h2>
+            <div class="timeline">
+                <div class="timeline-item fade-in">
+                    <div class="timeline-content">
+                        <span class="timeline-date">2024</span>
+                        <h3>Web Developer</h3>
+                        <p>Olive Grove Website</p>
+                        <p>Developed and maintained the company's main website with a focus on user experience and performance.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item fade-in">
+                    <div class="timeline-content">
+                        <span class="timeline-date">2023 - Present</span>
+                        <h3>English Teacher</h3>
+                        <p>Comboni College Khartoum</p>
+                        <p>Teaching English language and literature to high school students while incorporating technology in education.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item fade-in">
+                    <div class="timeline-content">
+                        <span class="timeline-date">2021 - 2023</span>
+                        <h3>Web Development Instructor</h3>
+                        <p>Code Academy</p>
+                        <p>Conducted workshops and courses on frontend development, HTML, CSS, JavaScript and React.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item fade-in">
+                    <div class="timeline-content">
+                        <span class="timeline-date">2020</span>
+                        <h3>Bachelor's in Computer Science</h3>
+                        <p>University of Technology</p>
+                        <p>Graduated with honors, specializing in web technologies and user interface design.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2>What People Say</h2>
+            <div class="testimonial-slider fade-in">
+                <div class="testimonial">
+                    <i class="fas fa-quote-left"></i>
+                    <p>"Adam is an exceptional developer and educator. He has a unique ability to explain complex concepts in a way that's easy to understand and apply."</p>
+                    <div>
+                        <div class="testimonial-author">Sarah Johnson</div>
+                        <div class="testimonial-role">Product Manager at TechSolutions</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <p>Feel free to reach out for collaborations or just a friendly hello</p>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>furtech.web1@gmail.com</span>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+2011411641</span>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Khartoum, Sudan</span>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://github.com/adam21792"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/adamharoon92/"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://x.com/AdamHaroon92?t=RcaWrr2m1SxTMKZ2gJR-0w&s=09"><i class="fab fa-x"></i></a>
+                        <a href="https://www.facebook.com/adamharoons92"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                    
+                    <a href="https://wa.me/201026645049?text=Hello%20I%20am%20interested%20in%20your%20services" class="btn" style="margin-top: 1.5rem;">
+                        <i class="fab fa-whatsapp"></i> Message on WhatsApp
+                    </a>
+                </div>
+                
+                <div class="contact-form fade-in">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" placeholder="Your name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="Your email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" placeholder="Your message" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <img src="https://i.postimg.cc/SxzK6jCb/LOGO.jpg" width="60px" height="45px" alt="logo">                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="copyright">
+                &copy; 2023 Adam Haroon. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
